@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.073c9b0a.css",
+    "main.js": "/static/js/main.b50823f7.js",
+    "static/js/787.f5679885.chunk.js": "/static/js/787.f5679885.chunk.js",
+    "static/media/instalogo.png": "/static/media/instalogo.046af6041ae1fffdc4a7.png",
+    "static/media/BlueVinyl.otf": "/static/media/BlueVinyl.7d105274034af3bc93e2.otf",
+    "index.html": "/index.html",
+    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
+    "main.b50823f7.js.map": "/static/js/main.b50823f7.js.map",
+    "787.f5679885.chunk.js.map": "/static/js/787.f5679885.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.b50823f7.js"
+  ]
+}
