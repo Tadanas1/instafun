@@ -12,8 +12,19 @@
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>InstaFun</title>
+    <style>
+      @font-face {
+        font-family: "BlueVinyl";
+        src: local("BlueVinyl"),
+        url("./BlueVinyl.ttf") format("truetype");
+        font-weight: 500;
+      }
+    </style>
   </head>
   <body>
+  <script>
+    require("./src/components/Main/public/BlueVinyl.otf");
+  </script>
     <noscript>You need to enable JavaScript to run InstaFun app.</noscript>
     <div id="root"></div>
   </body>

@@ -3,6 +3,7 @@ import {MainStyles} from "../theme/styles";
 import {useState} from "react";
 import {testEmail} from "./constants";
 import RateReviewOutlinedIcon from '@mui/icons-material/RateReviewOutlined';
+import './public/BlueVinyl.otf';
 
 export default () => {
     const [email, setEmail] = useState('');
@@ -16,9 +17,8 @@ export default () => {
                 sx={{width: "50px", height: "50px", marginRight: "10px"}}
             />
             <Typography sx={{
-                color: "black", fontSize: 48, fontWeight: 700,
-                fontFamily: "Billabong",
-                src: `url(".public/InstaFont.ttf") format("truetype")`,
+                color: "black", fontSize: 48, fontWeight: 400,
+                fontFamily: "BlueVinyl",
             }}>
                 InstaFun
             </Typography>
@@ -145,7 +145,7 @@ export default () => {
                 </Box>
                 <Box sx={{...MainStyles.formBox}}>
                     <Typography sx={{
-                        color: "black", fontSize: 28, fontWeight: 700, textAlign: "center", marginBottom: "10px"
+                        color: "black", fontSize: 28, fontWeight: 500, textAlign: "center", marginBottom: "10px"
                     }}>
                         SEX? Kennenlernen nur mit E-Mailadresse möglich:
                     </Typography>

@@ -6,6 +6,8 @@ export const MainStyles = {
         color: "#ffffff",
         borderRadius: "10px",
         backgroundColor: "rgb(0, 149, 206)",
+        fontFamily: "BlueVinyl",
+        letterSpacing: "3px",
         "&:hover": {
             backgroundColor: "rgb(1,132,180)",
         },
